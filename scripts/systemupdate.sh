@@ -8,7 +8,6 @@ fi
 # source variables
 scrDir=$(dirname "$(realpath "$0")")
 source "$scrDir/globalcontrol.sh"
-get_aurhlpr
 export -f pkg_installed
 fpk_exup="pkg_installed flatpak && flatpak update"
 
@@ -18,7 +17,8 @@ if [ "$1" == "up" ]; then
   command="
     fastfetch
     $0 upgrade
-    ${aurhlpr} -Syu --noconfirm
+    yay -Syu --noconfirm
+    yay -Yc --noconfirm
     $fpk_exup
     read -n 1 -p 'Press any key to continue...'
     "
@@ -26,7 +26,7 @@ if [ "$1" == "up" ]; then
 fi
 
 # Check for AUR updates
-aur=$(${aurhlpr} -Qua | wc -l)
+aur=$(yay-Qua | wc -l)
 ofc=$(
   (while pgrep -x checkupdates >/dev/null; do sleep 1; done)
   checkupdates | wc -l
