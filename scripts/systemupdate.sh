@@ -26,7 +26,7 @@ if [ "$1" == "up" ]; then
 fi
 
 # Check for AUR updates
-aur=$(yay-Qua | wc -l)
+aur=$(yay -Qua | wc -l)
 ofc=$(
   (while pgrep -x checkupdates >/dev/null; do sleep 1; done)
   checkupdates | wc -l
