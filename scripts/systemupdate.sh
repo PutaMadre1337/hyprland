@@ -19,6 +19,7 @@ if [ "$1" == "up" ]; then
     $0 upgrade
     yay -Syu --noconfirm
     yay -Yc --noconfirm
+    yay -Rns --noconfirm $(yay -Qdt)
     $fpk_exup
     read -n 1 -p 'Press any key to continue...'
     "
