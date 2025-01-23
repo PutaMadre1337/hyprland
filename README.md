@@ -1,5 +1,5 @@
 <div align="center">
-  ![PNG](assets/hyprland.png)
+  <img src="assets/hyprland.png" alt="PNG" />
 </div>
 
 
