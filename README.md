@@ -1,18 +1,18 @@
 <div align="center">
-  ## My fork of this [repository](https://github.com/prasanthrangan/hyprdots).
-
   ![PNG](assets/hyprland.png)
 </div>
 
 
 # Hyprland configuration for Arch linux
+My fork of [this repository](https://github.com/prasanthrangan/hyprdots).
+
 For keymaps see [this directory.](keybinds)
 
 ## Also
-[Waybar](https://github.com/PutaMadre1337/waybar)
-[Rofi](https://github.com/prasanthrangan/hyprdots/tree/main/Configs/.config/rofi)
-[Wlogout](https://github.com/prasanthrangan/hyprdots/tree/main/Configs/.config/wlogout) (replace "swaylock" with "hyprlock")
-[Dunst](https://github.com/prasanthrangan/hyprdots/tree/main/Configs/.config/dunst)
+- [Waybar](https://github.com/PutaMadre1337/waybar)
+- [Rofi](https://github.com/prasanthrangan/hyprdots/tree/main/Configs/.config/rofi)
+- [Wlogout](https://github.com/prasanthrangan/hyprdots/tree/main/Configs/.config/wlogout) (replace "swaylock" with "hyprlock")
+- [Dunst](https://github.com/prasanthrangan/hyprdots/tree/main/Configs/.config/dunst)
 
 ## Dependencies (install from AUR)
 ### Main
