@@ -6,7 +6,7 @@
 # Hyprland configuration for Arch linux
 My fork of [this repository](https://github.com/prasanthrangan/hyprdots).
 
-For keymaps see [this directory.](keybinds)
+For keymaps see [this directory](keybinds).
 
 ## Also
 - [Waybar](https://github.com/PutaMadre1337/waybar)
