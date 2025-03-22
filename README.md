@@ -6,7 +6,10 @@
 # Hyprland configuration for Arch linux
 My fork of [this repository](https://github.com/prasanthrangan/hyprdots).
 
-For keymaps see [this directory.](keybinds)
+For keymaps see [this directory](keybinds).
+
+# Installation
+To use dots, create a symlink of the hyde directory at the path $HOME/.config/hyde, or simply move it.
 
 ## Also
 - [Waybar](https://github.com/PutaMadre1337/waybar)
